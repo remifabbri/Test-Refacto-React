@@ -1,5 +1,13 @@
 # Refactoring Kata Test
 
+## REFACTO DOMAINS FILTER
+For this factorization I used react hooks. 
+
+To use them just call the hooks you need from the hooks/filters folder. 
+
+- Todo
+It would be nice to add a callback function if you need to use the value in the parent component or create a constext to use the return anywhere. 
+
 ## Introduction
 
 We have a `FilterDomain` component in `src/components/DomainFilter/DomainFilter.component.tsx` which renders a cluster of 3 select inputs allowing the user to filter by `domain`.
